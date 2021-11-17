@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.app {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(210, 0, 0);
+  color: whitesmoke;
+  padding: 2rem;
+  position: relative;
+}
+
+.app-header div {
+  font-size: 1.5rem;
+}
+
+.app-header button {
+  position: absolute;
+  top: 1.75rem;
+  right: 2rem;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+.app-header a {
+  position: absolute;
+  top: 1.75rem;
+  right: 2rem;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.app-header a img {
+  margin-right: 0.5rem;
+}
+
+.app-header button img {
+  margin-right: 0.5rem;
+}
+
+.app-header button span {
+  font-size: 1rem;
+}
+
+.landing-page a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: rgb(25, 25, 25);
+}
+
+.landing-page section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  border-radius: 1rem;
+}
+
+.landing-page img {
+  border-radius: 1rem;
+}
+
+.landing-page section div {
+  margin-top: 1rem;
+  text-transform: capitalize;
+}
+
+.food-item {
+  display: flex;
+  margin-top: 35;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(225, 225, 225);
+  padding: 1rem;
+}
+
+.food-item button,
+.remove-btn {
+  padding: 0.5rem 1rem;
+  background-color: rgb(210, 0, 0);
+  color: whitesmoke;
+  font-weight: bold;
+  border: transparent;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.food-item img {
+  border-radius: 1rem;
+}
